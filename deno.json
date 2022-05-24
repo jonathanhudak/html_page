@@ -1,0 +1,5 @@
+{
+    "tasks": {
+        "test": "deno test --allow-read html_page.html makeHTMLPage.test.ts"
+    }
+}

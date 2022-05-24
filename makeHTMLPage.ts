@@ -1,10 +1,10 @@
- interface HTMLPageOptions {
+interface HTMLPageOptions {
   body?: string;
   head?: string;
   title: string;
 }
 
-export function makeHTMLPage({ body }: HTMLPageOptions) {
+export default function makeHTMLPage({ body, title, head }: HTMLPageOptions) {
   return `<!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,3 +16,4 @@ export function makeHTMLPage({ body }: HTMLPageOptions) {
     ${body}
   </body>
 </html>`;
+}
