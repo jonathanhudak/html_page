@@ -2,7 +2,7 @@
 
 ## Usage with Deno
 
-```
+```ts
 import { Application, Router } from "https://deno.land/x/oak/mod.ts";
 import makeHTMLPage from "https://deno.land/x/html_page/makeHTMLPage.ts";
 
