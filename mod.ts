@@ -1,1 +1,1 @@
-export * from "./makeHTMLPage.ts";
+export { makeHTMLPage } from "./makeHTMLPage.ts";

@@ -4,7 +4,7 @@ interface HTMLPageOptions {
   title: string;
 }
 
-export default function makeHTMLPage({ body, title, head }: HTMLPageOptions) {
+export function makeHTMLPage({ body, title, head }: HTMLPageOptions) {
   return `<!DOCTYPE html>
 <html lang="en">
   <head>
