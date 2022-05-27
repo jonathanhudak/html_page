@@ -1,6 +1,6 @@
 # html_page
 
-https://x.nest.land/html_page@0.1.0-1/mod.ts
+https://nest.land/package/html_page
 
 ## Usage with Deno
 
