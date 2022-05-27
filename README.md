@@ -1,5 +1,7 @@
 # html_page
 
+https://x.nest.land/html_page@0.1.0-1/mod.ts
+
 ## Usage with Deno
 
 ```ts
